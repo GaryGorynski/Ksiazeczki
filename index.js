@@ -16,7 +16,7 @@ class Book {
 
 class UI { 
 addBook(book){
-    const list = document.getElementById('dupa');
+    const list = document.getElementById('table__body');
     const row = document.createElement('tr');
     row.innerHTML = `
 
